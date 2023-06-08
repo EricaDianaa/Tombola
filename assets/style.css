@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+
+}
+#celle,#celle1,#celle2,#celle3,#celle4,#celle5{
+    text-align: center;
+display: inline-block;
+ font-size: 56px;
+ margin: 60px;
+
+
+}
+.selectorCell,.selectorCell1,.selectorCell2,.selectorCell3,.selectorCell4,.selectorCell5{
+    border: solid 1px;
+    border-radius: 18px;
+}

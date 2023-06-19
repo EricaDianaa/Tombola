@@ -22,3 +22,4 @@ function generate_random() {
   casella_selezionata.classList.add('casella_selezionata');
 
 }
+//

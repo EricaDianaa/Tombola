@@ -1,19 +1,59 @@
-body{
+/* body{
     background-color: aqua;
+   
 }
 h1{
     text-align: center;
 
 }
 #celle,#celle1,#celle2,#celle3,#celle4,#celle5{
-    text-align: center;
+
 display: inline-block;
- font-size: 56px;
+ font-size: 60px;
  margin: 60px;
 
+display: flex;
+    flex-direction: row;
 
+}
+#containcells{
+    background-color: khaki;
 }
 .selectorCell,.selectorCell1,.selectorCell2,.selectorCell3,.selectorCell4,.selectorCell5{
     border: solid 1px;
     border-radius: 18px;
+ position: relative;
+ cursor: pointer; 
+ 
+} */
+body{
+    background-color: aqua;
+   
 }
+h1{
+    text-align: center;
+
+}
+
+#containcells{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+#containcells > * {
+    flex-basis: calc(100% / 15);
+    max-width: calc(100% / 15);
+    margin:5px;
+    padding:15px;
+    width:60px;
+  }
+
+.selectorCell,.selectorCell1,.selectorCell2,.selectorCell3,.selectorCell4,.selectorCell5{
+    border: solid 1px;
+    border-radius: 18px;
+ position: relative;
+ cursor: pointer; 
+ 
+}
+
+.casella_selezionata {background-color: orange;}
